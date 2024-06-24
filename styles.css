@@ -21,37 +21,24 @@ body {
 }
 
 /* Header styling */
+/* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #A8763E;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
 }
 
-/* Logo styling */
-header .logo {
-    
-    width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-image: url('default_a_vibrant_burger_hut_logo_digitally_crafted_in_a_styli_2_9bff4a50-86de-4b7b-8240-bb0df6c3c084.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 100px;
-  cursor: pointer;
-    /* font-weight: bold;
-    font-family: Verdana,Tahoma, sans-serif;
-    color: #ff6347; Tomato color */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Navigation menu styling */
-header nav ul {
-    display: flex;
-    list-style: none;
+.logo {
+    height: 50px;
 }
 
 .desktop-nav ul {
@@ -114,8 +101,7 @@ header nav ul {
     font-size: 24px;
     cursor: pointer;
 }
-
-/* Call to action button styling */
+/* /* Call to action button styling */
 header nav ul li .cta {
     padding: 0.5rem 1rem;
     background-color: #6F1A07; /* Tomato color */
@@ -127,7 +113,7 @@ header nav ul li .cta {
 header nav ul li .cta:hover {
     background-color: #0cb3f5;
     color: black; /* Darker tomato color */
-}
+} */
 
 
     
