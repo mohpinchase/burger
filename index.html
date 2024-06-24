@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger Hut</title>
-    <link rel="icon" href="/spicy00.PNG" type="image/x-icon">
+    <link rel="icon" href="spicy00.PNG" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="logo"></div>
+<!--         <div class="logo"></div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -20,8 +20,34 @@
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#order" class="cta">Order Online</a></li>
             </ul>
-        </nav>
+        </nav> -->
+         <div class="container">
+<div class="logo"></div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
+
+    <nav class="sidebar" id="sidebar">
+        <div class="close-icon" id="close-sidebar">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Locations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <!-- Additional content can go here -->
     <section id="home" class="hero">
         <div class="hero-content">
