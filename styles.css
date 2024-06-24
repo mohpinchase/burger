@@ -612,3 +612,67 @@ blockquote {
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .burger-card {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo, .footer-links, .footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .featured-burgers h2 {
+        font-size: 2rem;
+    }
+
+    .burger-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .burger-card p {
+        font-size: 0.9rem;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+}
